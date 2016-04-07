@@ -1,1 +1,1 @@
-Visit this site at https://oppsites.github.io/statuspage/
+Visit this site at http://status.oppsites.com
