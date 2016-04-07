@@ -8,8 +8,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
 		<link rel="stylesheet" href="milligram.min.css">
 		<link rel="stylesheet" href="style.css">
-		
-		<link rel="icon" href="https://raw.githubusercontent.com/pyupio/statuspage/master/template/favicon.png">
+		<link rel="icon" href="favicon.png">
 	</head>
 	<body>
 
@@ -19,8 +18,7 @@
 				<section class="container">
 
 					<a class="navigation-title" href="">
-						
-						<img class="img" src="https://raw.githubusercontent.com/pyupio/statuspage/master/template/logo.png" height="30">
+						<img class="img" src="logo.png" height="30">
 						<h1 class="title">Status</h1>
 					</a>
 
@@ -31,9 +29,11 @@
 
 			<section class="container" id="main">
 				
-					<div class="panel operational">
-						All Systems operational.
+					
+					<div class="panel major outage">
+						Major outage on Website.
 					</div>
+					
 				
 
 				<h4>Systems</h4>
@@ -44,18 +44,34 @@
 					</li>
 					
 					<li>
-						Website <span class="status operational">operational</span>
+						Email <span class="status operational">operational</span>
 					</li>
 					
 					<li>
-						Email <span class="status operational">operational</span>
+						Website <span class="status major outage">major outage</span>
 					</li>
 					
 				</ul>
 
 				<h4>Incidents</h4>
 				
-					<em>No incidents in the past 90 days.</em>
+					
+					<div class="incident">
+						<span class="date">2016-04-07 19:51:51</span>
+
+						
+							<span class="label major outage float-right">major outage</span>
+						
+						
+							<span class="label system float-right">Website</span>
+						
+						<hr/>
+
+						<span class="title">Minor Updates</span>
+						<p>OppSites will be down for 5-10 minutes to update some minor pages at 4PM PST.</p>
+						
+					</div>
+					
 				
 			</section>
 
@@ -63,8 +79,7 @@
 			<footer class="footer">
 				<section class="container">
 					<hr/>
-					
-					<p>Status page hosted by GitHub, generated with <a href="https://github.com/pyupio/statuspage">pyupio/statuspage</a></p>
+					<p>OppSites <a href="http://oppsites.com">homepage</a> | Get realtime updates <a href="https://twitter.com/OppSitesStatus">@OppSitesStatus</a></p>
 				</section>
 			</footer>
 
